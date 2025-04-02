@@ -10,6 +10,7 @@ const getSum = () => {
 	})
 	const lastRow = document.createElement("tr")
 	const data = document.createElement("td")
+	data.setAttribute("id","ans")
 	const table = document.querySelector("table")
 	data.textContent = `Total : ${sum}`;
 	lastRow.appendChild(data)
